@@ -17,8 +17,9 @@ print(solve(data))
 # took me about 2 hours for this lol
 
 # part two asks for numbers in text form as apposed to the numbers
-# replace regex listings, as they are basically the exact same system, 
-# but with words instead of numbers
+# just replace the numbers found with the input.txt file with a readable number
+# replace "one" with "one1one" so if there is an edge case where it needs the
+# last part of the word to make another number it can still read it
 data = (
     data.replace("one", "one1one")
     .replace("two", "two2two")
