@@ -2,8 +2,8 @@
 import re
 
 # read inputs (replace my input with your input from the website in this file)
-with open("input.txt") as f:
-    data = f.read().strip()
+with open("input.txt") as inputs:
+    data = inputs.read().strip()
 
 # split out numbers from words, then add them
 def solve(data):
