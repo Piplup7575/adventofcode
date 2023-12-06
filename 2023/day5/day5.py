@@ -1,7 +1,7 @@
 from functools import reduce
 
-with open("input.txt") as f:
-  seeds, *maps = f.read().strip().split('\n\n')
+with open("input.txt") as inputs:
+  seeds, *maps = inputs.read().strip().split('\n\n')
   seeds = list(map(int, seeds.split()[1:]))
 
 
