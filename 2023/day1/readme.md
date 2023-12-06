@@ -1,4 +1,4 @@
-# day 1
+# day1
 
 pain
 ok so basically regex is cool  
